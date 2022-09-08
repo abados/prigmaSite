@@ -1,0 +1,416 @@
+body {
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(384.02px);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 20px;
+  color: black;
+}
+a {
+  text-decoration: none;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.7159px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #686c75;
+}
+
+.img-responsive1 {
+  position: absolute;
+  width: 573.56px;
+  height: 764.75px;
+  left: 612.22px;
+  top: 206.86px;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  z-index: 2;
+}
+.img-responsive2 {
+  position: absolute;
+  width: 300.89px;
+  height: 300.89px;
+  left: 989.37px;
+  top: 199.55px;
+  z-index: 2;
+
+  filter: drop-shadow(0px 56.4161px 87.7584px rgba(255, 200, 118, 0.35));
+}
+.img-responsive3 {
+  position: absolute;
+  width: 141.04px;
+  height: 141.04px;
+  left: 1145px;
+  top: 475.36px;
+
+  filter: drop-shadow(0px 56.4161px 87.7584px rgba(255, 200, 118, 0.35));
+}
+.img-responsive4 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 1264.14px;
+  top: 357.3px;
+
+  filter: drop-shadow(0px 56.4161px 87.7584px rgba(255, 200, 118, 0.35));
+}
+
+.txtMain {
+  position: absolute;
+  width: 474.31px;
+  height: 271.63px;
+  left: 120.26px;
+  top: 406.4px;
+
+  font-family: "Axiforma";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58.5056px;
+  line-height: 68px;
+
+  color: #000000;
+}
+
+.aboveTextIMG {
+  /* Vector 1 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 78.36px;
+  height: 20.67px;
+  left: 153.58px;
+  top: 450.15px;
+
+  /* 1st */
+  border: 5.22371px solid #fd5b2f;
+  border-radius: 2.08948px;
+}
+
+.img-rect {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 500.4px;
+  height: 764.75px;
+  left: 580px;
+  top: 212.08px;
+  z-index: 1;
+}
+
+.txtNearImg {
+  /* Co Working */
+
+  position: absolute;
+  width: 474.31px;
+  height: 67.91px;
+  top: 650px;
+  left: 970px;
+
+  font-family: "Axiforma";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 51.1924px;
+  line-height: 68px;
+  /* identical to box height, or 133% */
+
+  /* black */
+  color: #000000;
+
+  opacity: 0.1;
+  transform: rotate(-90deg);
+}
+
+.containerGroup3 {
+  position: absolute;
+  width: 777.29px;
+  height: 102.38px;
+  left: 115px;
+  top: 770px;
+
+  background: rgba(243, 243, 243, 0.6);
+  backdrop-filter: blur(35.5212px);
+  /* Note: backdrop-filter has minimal browser support */
+  z-index: 4;
+  border-radius: 5.22371px;
+}
+
+.mapImg {
+  position: absolute;
+  left: 5.88%;
+  right: 88.03%;
+  top: 35.76%;
+  bottom: 87.92%;
+  cursor: pointer;
+}
+
+.btnSearch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9.40268px 36.566px;
+  gap: 10.45px;
+
+  position: absolute;
+  width: 176.56px;
+  height: 56.42px;
+  left: 580.25px;
+  top: 22px;
+  /* 1st */
+
+  background: #fd5b2f;
+  border-radius: 5.22371px;
+  cursor: pointer;
+}
+
+.txtGroup3 {
+  position: absolute;
+  left: 8.28%;
+  right: 88.03%;
+  top: 35.76%;
+  bottom: 87.92%;
+
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.8054px;
+  line-height: 24px;
+
+  /* grey */
+
+  color: #989898;
+  cursor: pointer;
+}
+
+.txtGroup4 {
+  position: absolute;
+  left: 42.28%;
+  right: 88.03%;
+  top: 35.76%;
+  bottom: 87.92%;
+
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.8054px;
+  line-height: 24px;
+  cursor: pointer;
+  /* grey */
+
+  color: #989898;
+}
+.imgPerson1 {
+  /* Ellipse 31 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 134.77px;
+  top: 890px;
+}
+.imgPerson2 {
+  /* Ellipse 32 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 159.07px;
+  top: 890px;
+}
+.imgPerson3 {
+  /* Ellipse 33 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 183.37px;
+  top: 890px;
+}
+.imgPerson4 {
+  /* Ellipse 34 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 207.67px;
+  top: 890px;
+}
+.imgPerson5 {
+  /* Ellipse 35 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 231.96px;
+  top: 890px;
+}
+.imgPerson6 {
+  /* Ellipse 36 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 256.26px;
+  top: 890px;
+}
+.imgPerson7 {
+  /* Ellipse 37 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 280.56px;
+  top: 890px;
+  border-radius: 60%;
+
+  /* 2nd */
+  background: #13ded2;
+}
+
+.bottom-leftImgText {
+  position: absolute;
+  width: 19.85px;
+  height: 37.61px;
+  left: 287.3px;
+  top: 890px;
+
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10.4474px;
+  line-height: 38px;
+  /* identical to box height, or 360% */
+
+  /* white */
+  color: #ffffff;
+}
+
+.bottom-lefText {
+  /* 16 people booked a visit in last 24 hours */
+
+  position: absolute;
+  width: 581.92px;
+  height: 37.61px;
+  left: 330.14px;
+  top: 868px;
+
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12.5369px;
+  line-height: 38px;
+  /* identical to box height, or 300% */
+
+  /* black */
+  color: #000000;
+}
+
+footer {
+  /* Comapnies Logo */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 80px;
+
+  position: absolute;
+  width: 670.56px;
+  height: 24.15px;
+  left: 384.47px;
+  top: 1070px;
+  padding-bottom: 50px;
+}
+
+.imgLogo1 {
+  /* google */
+
+  width: 71.1px;
+  height: 24.15px;
+  margin-left: 20px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.imgLogo2 {
+  /* slack */
+
+  width: 95.83px;
+  height: 24.15px;
+  margin-left: 20px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.imgLogo3 {
+  /* atlassian */
+
+  width: 112.44px;
+  height: 24.15px;
+  margin-left: 20px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.imgLogo4 {
+  /* dropbox */
+
+  width: 120.74px;
+  height: 24.15px;
+  margin-left: 20px;
+  background: url(Image.png);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+.imgLogo5 {
+  /* shopify */
+
+  width: 84.52px;
+  height: 24.15px;
+  margin-left: 20px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
