@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+
+label {
+  display: block;
+}
+
+.btn {
+  margin-top: 15px;
+  display: block;
+}
